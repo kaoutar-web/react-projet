@@ -9,9 +9,9 @@ return (
 <h1 className='text-center font-bold text-2xl text-gray-700'>CRUD With Redux 
 Toolkit</h1>
 <Routes>
-<Route path="/" element={<UserList/>}/>
-<Route path="/add-user" element={<AddUser/>}/>
-<Route path="/edit-user/:id" element={<EditUser/>}/>
+<Route path="/react-projet" element={<UserList/>}/>
+<Route path="/react-projet/add-user" element={<AddUser/>}/>
+<Route path="/react-projet/edit-user/:id" element={<EditUser/>}/>
 </Routes>
 </div>
 );
