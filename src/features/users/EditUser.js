@@ -19,7 +19,7 @@ id: params.id,
 name: values.name,
 email: values.email
 }));
-navigate('/');
+navigate('/react-projet');
 }
 return(
 <div className="mt-10 max-w-xl mx-auto">

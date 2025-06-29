@@ -16,7 +16,7 @@ key={user.id}>
 <span className="font-normal text-gray-600">{user.email}</span>
 </div>
 <div className="flex gap-4">
-<Link to={`/edit-user/${user.id}`}>
+<Link to={`/react-projet/edit-user/${user.id}`}>
 <button>
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 
 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -37,7 +37,7 @@ supprimer
 ))
 return(
 <div>
-<Link to="/add-user"><Button>Add User</Button></Link>
+<Link to="/react-projet/add-user"><Button>Add User</Button></Link>
 <div className="grid gap-5 md:grid-cols-2">
 {users.length ? renderCard() : 
 <p className="text-center col-span-2 text-gray-700 font-semibold">No 
